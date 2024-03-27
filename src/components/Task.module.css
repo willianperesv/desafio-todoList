@@ -65,7 +65,12 @@ input[type=radio]:checked + label > p {
 }
 
 label p{
+ 
     margin-left:1rem;
+    width:37rem;
+    text-overflow: ellipsis;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
 }
 
 label:hover:before {
