@@ -1,0 +1,85 @@
+
+.radioCheckBox{
+   display:flex;
+   justify-content: space-between;
+   align-items: baseline;
+}
+
+label {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+    font-size: 0.9rem;
+    background-color: transparent;
+
+    margin-top: 0.3rem;
+    margin-right: 0.8rem;
+    padding-left: 1.5rem;
+    
+    cursor: pointer;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+label:before {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top:0;
+    bottom: 0.9rem;
+     
+    background-color: transparent;
+    border:2px solid var(--blue-100);
+    border-radius:100%;
+    content: "";
+    
+    width: 16px;
+    height: 16px;
+  
+    margin-right: 10px;
+
+}
+
+
+input[type=radio]:checked + label:before {
+    text-align: center;
+    flex-direction: column-reverse;
+    
+    content: "\2714";
+    background-color: var(--violet-300);
+    color: #f3f3f3;
+    font-size: 15px;
+    border:none;
+    
+    margin-right: 2rem;
+    padding:0.1rem;
+}
+
+input[type=radio]:checked + label > p {
+    text-decoration: line-through;
+    color:var(--gray-300);
+}
+
+label p{
+    margin-left:1rem;
+}
+
+label:hover:before {
+    background-color: #1E6F9F; 
+}
+
+input[type=radio]:checked + label:hover:before {
+    background-color: var(--violet-200); 
+}
+
+
+
+
+
+
+
+

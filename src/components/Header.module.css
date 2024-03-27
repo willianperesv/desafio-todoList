@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: center;
+    background: var(--black-);
+   
+    height: 11.11rem;
+  
+    gap:0.5rem;
+    overflow:hidden;
+}
+
+.header img{
+    height: 2.2rem;
+    
+    margin-top: 4.3rem;
+}

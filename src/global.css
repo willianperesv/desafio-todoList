@@ -1,0 +1,41 @@
+:root {
+  --black-: #0D0D0D;
+  --white: #ffffff;
+  --gray-100: #808080;
+  --gray-300: #c4c4cc;
+  --gray-400: #8d8d99;
+  --gray-500: #333333;
+  --gray-600: #323238;
+  --gray-700: #29292e;
+  --gray-800: #202024;
+  --gray-900: #121214;
+
+  --green-300: #00b37E;
+  --green-500: #00875f;
+
+  --blue-100: #4EA8DE;
+  --blue-300: #1E6F9F;
+  
+  --red-300: #E25858;
+  --red-500: #F75A68;
+
+  
+  --violet-200: #8284FA;
+  --violet-300: #5E60CE;
+  --violet-400: #9747FF;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box; 
+}
+
+body, input, textarea, button{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-size: 1em; 
+  background:var(--gray-700);
+}
+

@@ -1,0 +1,105 @@
+.taskCreator{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    width:100%;
+    height:3.375rem;
+
+    margin-top: calc(2px - 0.9rem - 6px);
+    padding-left:2rem;
+    padding-right: 2rem;
+    
+    overflow:hidden;
+}
+
+.taskCreatorBox{
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+   
+    height:100%;
+    width:44rem;
+
+    border:none;
+    overflow:hidden;
+}
+
+.taskCreatorInput{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+    width:90%;
+    height: 90%;
+}
+
+
+.taskCreatorInput input{
+    font-size: 12px;
+    color:var(--gray-300);
+    background-color: var(--gray-500);
+    
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    
+    width: 100%;
+    height: 100%;
+    
+    padding-left: 0.9rem;
+}
+
+
+
+.taskCreator button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    color:#FFFF;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background: var(--blue-300);
+    
+    border:none;
+    border-radius: 8px 8px;
+    
+    width: 5rem;
+    height: 90%;
+
+    margin-left:1rem;
+    cursor:pointer;
+}
+
+.errorBox{
+    display:flex;
+    justify-content: center;
+  
+    width:100%;
+
+    padding-left:2rem;
+    padding-right: 2rem;
+}
+
+.errorMessage{
+    font-size:12px;
+    color: var(--red-300);
+
+    width:44rem;
+    padding-left: 0.5rem;
+}
+
+.taskCreator button:hover{
+    background: var(--blue-100);
+}
+
+.taskCreator img{
+    width:0.9rem;
+
+    margin-left: 0.5rem;
+}
+
+.taskCreatorInput input:focus{
+    border: 1px solid var(--violet-200);
+} 
